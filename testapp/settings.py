@@ -30,6 +30,7 @@ DATABASES = {
 MIDDLEWARE_CLASSES = ()
 
 INSTALLED_APPS = [
+    'django.contrib.sites',
     'django_nose',
     'testapp',
 ]
